@@ -1,2 +1,0 @@
-# ProyCloud
-Creacion DEV
