@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_ti5BcIwnEeuNzInoiAu08A" name="Aurora_DriverMySQL5" id="_teVRkIwnEeuNzInoiAu08A" label="Aurora_DriverMySQL5" dataPackage="_HMnZoEQlEemT28bG1gaDjw" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://datalakevintecluster.cluster-ceojmzbisste.us-east-1.rds.amazonaws.com:3306/dbdatalake?noDatetimeStringSync=true&amp;autoReconnect=true" dbVersionString="MYSQL_5" Port="3306" Username="Admindbdatalake" Password="enc:system.encryption.key.v1:IcsNXL3v7m3CYNgXyIXBReaciClFM5r/JG1+XgCgUmClRVCmrpA=" ServerName="datalakevintecluster.cluster-ceojmzbisste.us-east-1.rds.amazonaws.com" DatasourceName="" FileFieldName="" SID="dbdatalake" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;autoReconnect=true" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+    <taggedValue xmi:id="_G7LrYUQlEemT28bG1gaDjw" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_G7oXUEQlEemT28bG1gaDjw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_G7oXUUQlEemT28bG1gaDjw" tag="Status" value=""/>
+    <taggedValue xmi:id="_G7oXUkQlEemT28bG1gaDjw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_G7oXU0QlEemT28bG1gaDjw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_G7oXVEQlEemT28bG1gaDjw" tag="Description" value=""/>
+    <taggedValue xmi:id="_G7oXVUQlEemT28bG1gaDjw" tag="Author" value=""/>
+    <taggedValue xmi:id="_G7oXVkQlEemT28bG1gaDjw" tag="otherParameter"/>
+    <taggedValue xmi:id="_HEHk8EQlEemT28bG1gaDjw" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_HEHk8UQlEemT28bG1gaDjw" tag="DB ProductVersion" value="5.7.12"/>
+    <taggedValue xmi:id="_HEHk8kQlEemT28bG1gaDjw" tag="DB IdentifierQuoteString" value="`"/>
+    <queries xmi:id="_-AOiwJwtEemF8cK-eqPfdQ"/>
+    <parameters xmi:id="_wIBQoIwnEeuNzInoiAu08A" key="CONN_PARA_KEY_USERNAME" value="Admindbdatalake"/>
+    <parameters xmi:id="_tWbdUIwoEeuNzInoiAu08A" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_HMnZoEQlEemT28bG1gaDjw" name="dbdatalake" dataManager="_ti5BcIwnEeuNzInoiAu08A">
+    <ownedElement xsi:type="relational:TdView" xmi:id="_-TlLMVc7EequQoZC_Mz7cQ" name="S_Fecha_Actual" id="_wBDYcLDaEeqAq87ceod6wA" comment="VIEW" label="S_Fecha_Actual" tableType="VIEW">
+      <taggedValue xmi:id="_-TlLMlc7EequQoZC_Mz7cQ" tag="Comment" value="VIEW"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_-TlLM1c7EequQoZC_Mz7cQ" name="Compania" label="Compania" length="19" sourceType="BIGINT" talendType="id_Long" nullable="false">
+        <taggedValue xmi:id="_-TlLNFc7EequQoZC_Mz7cQ" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_-TlLNVc7EequQoZC_Mz7cQ" body="0" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_-TlLNlc7EequQoZC_Mz7cQ" name="BIGINT" numericPrecisionRadix="10" javaDataType="-5"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_-TlLN1c7EequQoZC_Mz7cQ" name="Fecha_Actual" label="Fecha_Actual" length="10" sourceType="DATE" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_-TlLOFc7EequQoZC_Mz7cQ" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_-TlLOVc7EequQoZC_Mz7cQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_-TlLOlc7EequQoZC_Mz7cQ" name="DATE" numericPrecisionRadix="10" javaDataType="91" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

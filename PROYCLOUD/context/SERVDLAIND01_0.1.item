@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_jd8usM73Eeu2D62Hm4V0Fw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_jd8usc73Eeu2D62Hm4V0Fw" comment="" name="SERVDLAIND01_Database" prompt="SERVDLAIND01_Database?" promptNeeded="false" type="id_String" value="Data_Lake"/>
+  <contextParameter xmi:id="_jd8uss73Eeu2D62Hm4V0Fw" comment="" name="SERVDLAIND01_AdditionalParams" prompt="SERVDLAIND01_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_jd8us873Eeu2D62Hm4V0Fw" comment="" name="SERVDLAIND01_Login" prompt="SERVDLAIND01_Login?" promptNeeded="false" type="id_String" value="Cedeco"/>
+  <contextParameter xmi:id="_jd8utM73Eeu2D62Hm4V0Fw" comment="" name="SERVDLAIND01_Password" prompt="SERVDLAIND01_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:IoHdDsGExP2bulzx1FA3nW6JYAMVSxEsX0zb9A+TpOoxbtwo"/>
+  <contextParameter xmi:id="_jd8utc73Eeu2D62Hm4V0Fw" comment="" name="SERVDLAIND01_Schema" prompt="SERVDLAIND01_Schema?" promptNeeded="false" type="id_String" value="dbo"/>
+  <contextParameter xmi:id="_jd8uts73Eeu2D62Hm4V0Fw" comment="" name="SERVDLAIND01_Server" prompt="SERVDLAIND01_Server?" promptNeeded="false" type="id_String" value="10.10.0.50"/>
+  <contextParameter xmi:id="_jd8ut873Eeu2D62Hm4V0Fw" comment="" name="SERVDLAIND01_Port" prompt="SERVDLAIND01_Port?" promptNeeded="false" type="id_String" value="62195"/>
+</talendfile:ContextType>
